@@ -1,9 +1,13 @@
 var PI = Math.PI;
 
-exports.area = function (r) {
+exports.circlearea = function (r) {
   return PI * r * r;
 };
 
-exports.circumference = function (r) {
+exports.circlecircumference = function (r) {
   return 2 * PI * r;
+};
+
+exports.squarearea = function (s) {
+  return s * s;
 };
